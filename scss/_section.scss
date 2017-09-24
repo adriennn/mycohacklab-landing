@@ -1,0 +1,44 @@
+section.full {
+  min-height: 100vh;
+  height: 100vh;
+  padding: 50px 0;
+}
+
+section {
+  padding: 50px 0;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+@media screen and (min-width:768px) {
+  p {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  section > .container {
+    transform: translateY(20%);
+  }
+}
+
+@media screen and (min-width: 396px) and (max-width: 1199px) {
+  section > .container {
+    transform: translateY(10%);
+  }
+}
+
+@media screen and (max-width: 396px) {
+  p {
+    font-size: 19px;
+  }
+
+  a {
+    font-size: 14px !important;
+  }
+}
