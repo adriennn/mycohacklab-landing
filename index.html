@@ -58,6 +58,9 @@
               <a class="nav-link js-scroll-trigger" href="#projects">projects</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#mailing">Mailing list</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
@@ -70,10 +73,49 @@
         <div class="header-content-inner">
           <h1 id="homeHeading"><i class="icon-logo"></i></h1>
           <p class="lead">Myco Hacklab is a network of people interested in researching, experimenting or developing projects that combine fungi with disciplines such as art, science or technology. We are gathering and building our own equipment and infrastructure needed for growing mushrooms.</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#meetups">Meet with us!</a>
+          <a class="btn btn-primary btn-lg js-scroll-trigger" href="#mailing">&#9660;</a>
         </div>
       </div>
     </header>
+
+    <section class="bg-light full container-fluid h-100" id="mailing">
+
+        <div id="mlb2-5432847" class="row h-100 justify-content-center align-items-center">
+
+          <form action="https://app.mailerlite.com/webforms/submit/r5w6m0" data-id="466613" data-code="r5w6m0" method="POST" target="_blank">
+
+            <div class=" mx-auto col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
+
+              <h3 class="display-4 pb-1 text-center">Subscribe to our mailing list</h3>
+
+              <div class="form-group-lg">
+                <input type="email" name="fields[email]" class="input-lg form-lg form-control" placeholder="Email*" value="" autocomplete="email" x-autocompletetype="email" spellcheck="false" autocapitalize="off" autocorrect="off">
+              </div>
+
+              <div class="form-group-lg pt-3 pb-5 text-center">
+                  <button type="submit" class="btn btn-xl btn-primary">
+                      Subscribe
+                  </button>
+              </div>
+
+              <input type="hidden" name="ml-submit" value="1" />
+
+            </div>
+
+          </form>
+
+          <script>
+              function ml_webform_success_5432847() {
+                  var $ = ml_jQuery || jQuery;
+
+                  $('.ml-subscribe-form-5432847 .ml-block-success').show();
+                  $('.ml-subscribe-form-5432847 .ml-block-form').hide();
+              };
+          </script>
+
+        </div>
+
+    </section>
 
     <section class="bg-primary full" id="meetups">
       <div class="container">
@@ -82,12 +124,7 @@
             <h2 class="section-heading text-white">Myco meetups</h2>
             <p class="text-faded">A Myco Meetup is a get-together for mushroom enthusiasts and people that are interested in learning more about fungi. Helsieni hosts a Myco Meetup in Helsinki every 2nd Friday of the month at 18:00. Sometimes a meetup is preceded by a relevant workshop with topics like cloning mushrooms, how to make agar or even how to make a glove box. For more details and other upcoming events check the Myco Hacklab Finland facebook page. </p>
 
-            <a class="btn btn-inverted btn-xl js-scroll-trigger" href="#projects"> See Our Projects &raquo</a>
-            <p class="m-0 text-uppercase">
-              Or
-            </p>
-            <a class="btn btn-inverted btn-xl" href="https://app.mailerlite.com/webforms/submit/r5w6m0" target="_blank">Join our mailing list &raquo</a>
-
+            <a class="btn btn-inverted btn-lg js-scroll-trigger" href="#projects">&#9660;</a>
           </div>
         </div>
       </div>
@@ -227,6 +264,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+
+    <!-- mailerlite -->
+    <script type="text/javascript" src="https://static.mailerlite.com/js/w/webforms.min.js?v3772b61f1ec61c541c401d4eadfdd02f"></script>
 
   </body>
 
